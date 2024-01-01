@@ -38,7 +38,7 @@ services:
       - fpm
 
   mysql:
-    image: mysql:latest
+    image: mysql
     ports:
         - "${DB_PORT}:3306"
     volumes:
